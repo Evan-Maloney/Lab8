@@ -50,8 +50,18 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void addCity(City city){
-        // implemenet add city method
         cities.add(city);
+    }
+
+    /**
+     * This returns the containment of a city in the list
+     * @param city
+     * This is a candidate city to check
+     * @return
+     * Boolean on whether the city is in the list
+     */
+    public boolean hasCity(City city) {
+        return cities.contains(city);
     }
 
 
