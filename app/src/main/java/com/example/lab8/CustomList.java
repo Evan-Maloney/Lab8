@@ -50,7 +50,11 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void addCity(City city){
-
+        // implemenet add city method
+        cities.add(city);
     }
+
+
+
 
 }
